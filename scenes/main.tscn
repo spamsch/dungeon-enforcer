@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvxk8qy7m5rfl"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(960, 540)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="TitleLabel" type="Label" parent="UI"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = 100.0
+offset_right = 200.0
+offset_bottom = 160.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 48
+text = "Dungeon Enforcer"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="UI"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = 170.0
+offset_right = 200.0
+offset_bottom = 210.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 24
+text = "Press any key to start"
+horizontal_alignment = 1

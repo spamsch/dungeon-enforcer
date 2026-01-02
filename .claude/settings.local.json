@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp add:*)",
+      "WebSearch",
+      "Bash(claude mcp get:*)",
+      "WebFetch(domain:docs.godotengine.org)",
+      "WebFetch(domain:github.com)",
+      "Bash(/Applications/Godot.app/Contents/MacOS/Godot:*)",
+      "WebFetch(domain:dungeonkeeper.fandom.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:kidscancode.org)",
+      "Bash(tree:*)",
+      "Bash(find:*)"
+    ]
+  }
+}
